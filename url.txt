@@ -1,1 +1,1 @@
-https://dashboardwed.streamlit.app/
+https://dashboardairqualitywedya.streamlit.app/
