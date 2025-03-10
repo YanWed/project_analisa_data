@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
 
-main_data_path = "https://github.com/YanWed/project_analisa_data/blob/c2bacfae1a2c215f53addd907687de67b9fbfcff/dashboard/main_data.csv"  
+main_data_path = "https://github.com/YanWed/project_analisa_data/blob/6409ff721f9a49f8661c16da35f835f8314abe78/dashboard/main_data.csv"  
 df = pd.read_csv(main_data_path)
 df["datetime"] = pd.to_datetime(df[["year", "month", "day", "hour"]])
 
